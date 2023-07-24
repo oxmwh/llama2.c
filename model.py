@@ -12,6 +12,7 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
+
 @dataclass
 class ModelArgs:
     dim: int = 4096
